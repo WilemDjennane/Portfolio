@@ -1,0 +1,124 @@
+/*! minireset.css v0.0.4 | MIT License | github.com/jgthms/minireset.css */
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, select, textarea {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img, embed, iframe, object, video {
+  height: auto;
+  max-width: 100%;
+}
+
+audio {
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #111111;
+}
+
+body {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body .main__div__louisvuitton {
+  display: flex;
+  justify-content: center;
+}
+body .main__div__louisvuitton .image__louisvuitton {
+  position: absolute;
+  top: 0;
+  height: 791px;
+  width: 791px;
+  z-index: 1;
+}
+body .main__div__levis {
+  display: flex;
+  justify-content: flex-end;
+}
+body .main__div__levis .image__levis {
+  width: 235px;
+  height: 651px;
+  margin-right: 26px;
+  object-fit: cover;
+}
+body .main__div__application {
+  display: flex;
+  justify-content: flex-start;
+}
+body .main__div__application .image__application {
+  top: 0;
+  margin-left: 25px;
+  z-index: 15;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+nav .ul__logo {
+  font-family: "sharpgrotesk", sans-serif;
+  font-size: 30px;
+  margin-left: 60px;
+}
+nav .ul__navbar {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  font-family: "sharpgrotesk", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  margin-right: 25px;
+}
+nav .ul__navbar a {
+  margin: 20px;
+}
+
+@font-face {
+  font-family: "sharpsgrotesk";
+  src: url("/SharpGrotesk-Bold20.3cdc7e1e.otf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "sharpgrotesk";
+  src: url("/SharpGrotesk-SemiBold20.a3d47e9d.otf");
+  font-weight: normal;
+}
+
+/*# sourceMappingURL=/main.77bb5cfd.css.map */
