@@ -1,41 +1,73 @@
 body {
-  box-sizing: border-box;
-  overflow: hidden;
+    box-sizing: border-box;
+    overflow: hidden;
 
-  .main__div__louisvuitton{
-    display: flex;
-    justify-content: center;
+    section {
+        display: flex;
+        justify-content: space-between;
 
-    .image__louisvuitton{
-      position: absolute;
-      top: 0;
-      height: 791px;
-      width: 791px;
-      z-index: 1;
-  }
-}
+        .main__div__focus {
+            display: flex;
+            justify-content: center;
+
+            .image__louisvuitton {
+                position: absolute;
+                top: 0;
+                height: 791px;
+                width: 791px;
+                z-index: 1;
+            }
+        }
+
+        .main__div__next {
+            display: flex;
+            align-items: center;
+            width: 235px;
+            height: 651px;
+            margin-right: 26px;
+
+            span {
+                position: absolute;
+                text-align: center;
+                width: 235px;
+                font-size: 22px;
+                font-family: 'sharpgrotesk', sans-serif;
+                font-weight: 200;
+                color: whitesmoke;
+            }
+
+            .image__levis {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
 
 
-  .main__div__levis {
-      display: flex;
-      justify-content: flex-end;
+        }
 
-    .image__levis {
-    width: 235px;
-    height: 651px;
-    margin-right: 26px;
-    object-fit: cover;
+        .main__div__previous {
+            display: flex;
+            align-items: center;
+            width: 235px;
+            height: 651px;
+            margin-left: 25px;
+
+            span {
+                position: absolute;
+                text-align: center;
+                width: 235px;
+                font-size: 22px;
+                font-family: 'sharpgrotesk', sans-serif;
+                font-weight: 200;
+                color: whitesmoke;
+            }
+
+            .image__application {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
     }
-  }
-
-  .main__div__application {
-  display: flex;
-  justify-content: flex-start;
-
-    .image__application {
-      top: 0;
-     margin-left: 25px;
-      z-index: 15;
-   } 
-  }
 }
